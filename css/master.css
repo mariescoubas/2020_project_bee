@@ -1,0 +1,107 @@
+
+
+h1{
+  font size:20px;
+color:#FFD404;
+  margin-left: 250px;
+  margin-right: 200px;
+  margin-top:20px;
+  -webkit-transition: color 2s;
+ transition: color 2s;
+ margin-bottom: -20px;
+}
+ h1:hover{
+ color:#FF9021 ;
+
+}
+
+h2{
+  font-size:120px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+body{
+  background-color: #F0C300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+header,  footer {
+  background-color: #000;
+  min-height: 15vh;
+}
+
+article {
+  min-height: 70vh;
+}
+
+nav a {
+  color:#FFF;
+}
+
+img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#intro  {
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 200px;
+}
+
+#etape4{
+  text-align: center;
+margin-bottom: 40px;
+
+}
+
+
+.content {
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.content video{
+  display: block;
+  flex-basis: 500px;
+  margin-bottom: 2em;
+}
+
+.content p{
+padding: 2em;
+flex-basis: 650px;
+}
+
+.content  text center{
+
+}
+nav {
+    float: right;
+    left: -50%;
+    position: relative;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	left: 50%;
+	position: relative;
+}
+ul li {
+	display: block;
+	float: left;
+	padding: 0px 10px;
+	margin: 0px;
+}
+#main-navigation {
+  margin-top: 40px ;
+}
